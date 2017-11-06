@@ -36,7 +36,7 @@ using Xunit;
 
 namespace CoiniumServ.Tests.Banning
 {
-    public class BanConfigTests
+    /*public class BanConfigTests
     {
         private readonly IJsonConfigReader _jsonConfigReader;
 
@@ -99,5 +99,5 @@ namespace CoiniumServ.Tests.Banning
             // as we have just supplied an invalid json, config should be just marked as invalid.
             config.Valid.Should().Equal(false);
         }
-    }
+    }*/
 }
